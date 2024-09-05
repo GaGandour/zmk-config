@@ -8,8 +8,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define HRML(k1, k2, k3, k4) &mt LALT k1 &mt LCTRL k2 &mt LGUI k3 &mt LSHFT k4
-#define HRMR(k1, k2, k3, k4) &mt RSHFT k1 &mt RGUI k2 &mt RCTRL k3 &mt RALT k4
+#define HRML(k1, k2, k3, k4) &ht_bl LALT k1 &ht_bl LCTRL k2 &ht_bl LGUI k3 &ht_bl LSHFT k4
+#define HRMR(k1, k2, k3, k4) &ht_bl RSHFT k1 &ht_bl RGUI k2 &ht_bl RCTRL k3 &ht_bl RALT k4
 
 #define DEFAULT 0
 #define NUMBERS 1
