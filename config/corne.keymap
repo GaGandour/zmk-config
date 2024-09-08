@@ -38,12 +38,12 @@
 // ├──────────├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────├──────────┼──────────┼──────────┼──────────┼──────────┤
 //    LSHIFT    Z          X          C          V          B              N          M          ,          .          /          ` or ~
 // ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────├──────────┼──────────┼──────────┴──────────┴──────────╯
-//                                   CAPS LOCK  COMMAND    SPACE/num      ENTER/func   BSPC       DEL
+//                                   CAPS LOCK  CAPS LOCK  SPACE/num      ENTER/func   BSPC       DEL
 //                                  ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
      &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U       &kp I     &kp O      &kp P      &kp BSPC
      &kp ESC    HRML(A,     S,         D,         F)        &kp G          &kp H      HRMR(J,     K,         L,         SEMI)     &kp SQT
      &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp GRAVE
-                                   &kp CAPS &kp LGUI &lt NUMBERS SPACE  &lt FUNCTION ENTER &kp BSPC &kp DEL
+                                   &kp CAPS &kp CAPS &lt NUMBERS SPACE  &lt FUNCTION ENTER &kp BSPC &kp DEL
                         >;
                 };
                 number_layer {
